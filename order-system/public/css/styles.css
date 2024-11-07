@@ -1,0 +1,101 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef; /* Light background */
+    margin: 0;
+    padding: 20px;
+    color: #343a40; /* Darker text for contrast */
+    line-height: 1.6;
+}
+
+h1 {
+    color: #002999; /* Bright blue for headers */
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #5890cc; /* Bright blue for table headers */
+    color: white;
+    transition: background-color 0.3s;
+}
+
+th:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+td {
+    background-color: #f8f9fa; /* Light gray for table cells */
+    transition: background-color 0.3s;
+}
+
+td:hover {
+    background-color: #e2e6ea; /* Slightly darker gray on hover */
+}
+
+button {
+    background-color: #28a745; /* Green for buttons */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker blue on hover */
+}
+
+.error {
+    color: #dc3545; /* Red for error messages */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+form div {
+    margin-bottom: 15px;
+}
